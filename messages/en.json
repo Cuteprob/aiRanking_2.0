@@ -11,9 +11,11 @@
     "menu": "menu"
   },
   "Footer": {
-    "title": "Open-source Ai Ranking Tools Directory",
-    "subTitle": "Discover the best AI tools of 2024 with the Ai Ranking Tools Directory!",
-    "support": "Support",
+    "title": "Ai Ranking Tools Directory",
+    "subTitle": "The best AI tools of 2024 with the Ai Ranking Tools Directory!",
+    "service": "SERVICES",
+    "friends": "FRIENDS",
+    "legal":"LEGAL",
     "AiRanking": "AiRanking",
     "tap4": "Tap4",
     "privacy": "Privacy policy",
@@ -109,7 +111,7 @@
       "6-h2": "5. Changes to Terms",
       "6-p": "Ai Ranking Directory reserves the right, at our sole discretion, to modify or replace these Terms at any time. We will notify users of any changes by email. Your continued use of the Website after any change in these Terms will constitute your acceptance of such changes.",
       "7-h2": "6. Contact Information",
-      "7-p": "If you have any questions about these Terms, please contact us at contact@6677.ai.",
+      "7-p": "If you have any questions about these Terms, please contact us at support@airanking.com.",
       "last-p": "By using Ai Ranking Directory, you signify your acceptance of these Terms of Service."
     }
   },
@@ -118,12 +120,12 @@
     "goHome": "go home"
   },
   "Home": {
-    "title": "Discover The Best AI Tools 2024",
-    "subTitle": "Get your favorite AI tools in Open-source Ai Ranking Tools Directory. AI tools list are updated daily by GPT-4o. It's free to submit here to enhance your SEO now. ",
+    "title": "The Best AI Tools",
+    "subTitle": "Get your favorite AI tools in Ai Ranking Tools. AI tools list are updated daily. It's free to submit here to enhance your SEO now. ",
     "ai-navigate": "AI Tools List",
     "exploreMore": "Get More AI Tools",
     "checkDetail": "View Detail",
-    "search": "Search",
+    "search": "Search...",
     "result": "Search Result",
     "empty": "No data available"
   },

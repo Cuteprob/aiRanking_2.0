@@ -61,21 +61,21 @@ export default function SubmitForm({ className }: { className?: string }) {
       <form
         onSubmit={form.handleSubmit(onSubmit)}
         className={cn(
-          'mx-3 mb-5 flex h-[449px] flex-col justify-between rounded-[12px] bg-[#2C2D36] px-3 py-5 lg:h-[557px] lg:w-[444px] lg:p-8',
+          'mx-3 mb-5 flex h-[449px] flex-col justify-between rounded-[12px] bg-[#6219F0]/20 px-3 py-5 lg:h-[557px] lg:w-[444px] lg:p-8',
           className,
         )}
       >
-        <div className='space-y-3 lg:space-y-5'>
+        <div className='space-y-3 lg:space-y-3'>
           <FormField
             control={form.control}
             name='website'
             render={({ field }) => (
-              <FormItem className='space-y-1'>
+              <FormItem className='space-y-1 text-black'>
                 <FormLabel>{t('website')}</FormLabel>
                 <FormControl>
                   <Input
                     placeholder='Ai Ranking'
-                    className='input-border-pink h-[42px] w-full rounded-[8px] border-[0.5px] bg-dark-bg p-5'
+                    className='input-border-pink h-[42px] w-full rounded-[8px] border-[0.5px] bg-white p-5'
                     {...field}
                   />
                 </FormControl>
@@ -87,12 +87,12 @@ export default function SubmitForm({ className }: { className?: string }) {
             control={form.control}
             name='url'
             render={({ field }) => (
-              <FormItem className='space-y-1'>
+              <FormItem className='space-y-1 text-black'>
                 <FormLabel>{t('url')}</FormLabel>
                 <FormControl>
                   <Input
                     placeholder={FORM_PLACEHOLDER}
-                    className='input-border-pink h-[42px] w-full rounded-[8px] border-[0.5px] bg-dark-bg p-5'
+                    className='input-border-pink h-[42px] w-full rounded-[8px] border-[0.5px] bg-white p-5 text-black'
                     {...field}
                   />
                 </FormControl>
@@ -101,7 +101,7 @@ export default function SubmitForm({ className }: { className?: string }) {
             )}
           />
         </div>
-        <div className='flex flex-col gap-[10px] lg:gap-8'>
+        <div className='flex flex-col gap-[10px] lg:gap-6'>
           <button
             type='submit'
             disabled={loading}
@@ -112,7 +112,7 @@ export default function SubmitForm({ className }: { className?: string }) {
           >
             {loading ? <Spinning className='size-[22px]' /> : t('submit')}
           </button>
-          <p className='text-[13px] text-white/40'>
+          <p className='text-[13px] text-black/60'>
             {t('add')} <span className='text-white'>{WEBSITE_EXAMPLE}</span> {t('text')}
           </p>
         </div>

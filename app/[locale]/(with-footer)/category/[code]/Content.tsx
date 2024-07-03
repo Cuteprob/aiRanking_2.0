@@ -27,7 +27,7 @@ export default function Content({
   return (
     <>
       <div className='mx-auto flex flex-col gap-3 py-5 lg:pt-10'>
-        <h1 className='text-center text-[28px] font-bold lg:text-5xl'>{headerTitle}</h1>
+        <h1 className='text-center font-mono text-2xl font-semibold text-black lg:text-4xl'>{headerTitle}</h1>
         <div className='mx-auto'>
           <ExploreBreadcrumb
             linkList={[

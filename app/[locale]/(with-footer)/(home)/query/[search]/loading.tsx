@@ -11,9 +11,9 @@ function LoadingCard() {
       <div className='mb-4 flex aspect-[310/174] h-auto w-full items-center justify-center rounded-xl bg-gray-500' />
       <div className='flex flex-col gap-2 px-[6px]'>
         <div className='mb-2 h-4 w-24 rounded-full bg-gray-500' />
-        <div className='h-2.5 rounded-full bg-gray-500' />
-        <div className='h-2.5 rounded-full bg-gray-500' />
-        <div className='h-2.5 rounded-full bg-gray-500' />
+        <div className='h-2.5 rounded-full bg-white' />
+        <div className='h-2.5 rounded-full bg-white' />
+        <div className='h-2.5 rounded-full bg-white' />
       </div>
     </div>
   );

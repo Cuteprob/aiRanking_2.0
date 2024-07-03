@@ -26,19 +26,20 @@ export default function Navigation() {
 
   return (
     <>
-      <header className='bg-frosted-glass sticky left-0 top-0 z-50 flex h-[64px] bg-[#252A464A] px-5 blur-[60%] filter lg:px-0'>
+      <header className='bg-frosted-glass sticky left-0 top-0 z-50 flex h-[64px] bg-white px-5 blur-[60%] filter lg:px-0'>
         <nav className='mx-auto flex max-w-pc flex-1 items-center'>
-          <div>
+          <div className='flex items-center'>
             <Link className='hover:opacity-80' href='/' title={t('title')}>
               <BaseImage
-                src='/images/AiRanking.svg'
+                src='/images/airanking629.png'
                 alt={t('title')}
                 title={t('title')}
                 width={64}
                 height={64}
-                className='size-[58px] lg:size-16'
+                className='size-[58px] pb-1 pt-1 lg:size-16'
               />
             </Link>
+            <h1 className='ml-2 font-mono text-2xl font-bold text-[#6219F0]'>AiRanking</h1>
           </div>
           {/* pc */}
           <div className='ml-auto flex h-full items-center gap-x-[46px]'>
@@ -47,9 +48,9 @@ export default function Navigation() {
                 <Link key={item.code} href={item.href} title={item.code}>
                   <li
                     className={cn(
-                      'flex h-full items-center text-white/40 hover:text-white',
-                      pathname === item.href && 'text-white',
-                      pathname.includes(item.href) && item.href !== '/' && 'text-white',
+                      'flex h-full items-center text-black/80 hover:text-[#6219F0]/70',
+                      pathname === item.href && 'text-[#6219F0]',
+                      pathname.includes(item.href) && item.href !== '/' && 'text-[#6219F0]',
                     )}
                   >
                     {item.label}
